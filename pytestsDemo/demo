@@ -1,0 +1,7 @@
+from Selenium import webdriver
+from webdriver import Service
+
+driver = driver.invoke(Chrome)
+
+driver.get('www.tesla.com')
+driver.getElementBy,(Xpath,"(//div[contains(@class,"tcl-homepage-hero__buttons-on-desktop")]//a[@title="Custom Order"]//span)[1]").click()
